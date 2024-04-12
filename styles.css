@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.music-player {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #39632f;
+    padding: 150px 100px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+ #song{
+    width: 100px;
+    height: 100px;
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    margin:0 auto;
+    border: 2px solid yellow;
+    margin-bottom: 20px;
+    border-radius: 5%;
+ }
+ p{
+    color: white;
+ }

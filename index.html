@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <div id="song">
+            DIL HAL KE MANTA NAHIN
+        </div>
+        <p>Song -Dil hai ke manta nahin</p>
+        <audio src="song.mp3" id="audio" controls></audio>
+        <div class="controls">
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="stop()">Stop</button>
+            <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5" oninput="setVolume()">
+        </div>
+        <p>follow me @impradeepx</p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
